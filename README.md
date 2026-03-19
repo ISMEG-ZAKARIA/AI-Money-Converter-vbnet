@@ -40,8 +40,9 @@ Built using **VB.NET** on the **.NET 8.0** platform, the application leverages W
 
 ## 🖥 Screenshots
 
-## Screenshots 
-*(Add application screenshots here)*
+| Main Interface | AI Chat Assistant | Live Conversion & Chat |
+| :---: | :---: | :---: |
+| ![Main Interface](screenshots/main_interface.png) | ![AI Chat Assistant](screenshots/ai_chat_interface.png) | ![Live Conversion & Chat](screenshots/conversion_chat_active.png) |
 
 ---
 
