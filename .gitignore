@@ -1,0 +1,134 @@
+# Visual Studio .gitignore
+# Created by ISMEG-ZAKARIA for AI Money Converter
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# Mono auto generated files
+mono_crash.*
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Vv][Ss][Ll][Oo][Gg]/
+
+# Visual Studio 2015/2017/2019/2022 cache/options directory
+.vs/
+# Uncomment if using tasks.json or launch.json
+#.vscode/
+
+# Environment variables
+.env
+.env.*
+appsettings.json
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/[Pp]ackages/*
+# except build/, which is used as an MSBuild target.
+!**/[Pp]ackages/build/
+# If using the old packages.config, uncomment the following line
+#!**/[Pp]ackages/config/
+# If using the new PackageReference, uncomment the following line
+#!**/[Pp]ackages/Microsoft.NETCore.Platforms/
+
+# OmniSharp
+.omnisharp/
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Backup & temp files from Optimizers, such as Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Visual Studio code coverage results
+*.coverage
+*.coveragexml
+
+# NCrunch
+_NCrunch_*
+.*crunch*.local.xml
+nCrunchTemp_*
+
+# MightyMoose
+*.mm.*
+AutoTest.Net/
+
+# Web workbench (sass)
+.sass-cache/
+
+# Installshield output folder
+[Ee]xpress/
+
+# DocProject is a documentation generator for APIs
+DocProject/buildhelp/
+DocProject/Help/*.mcgh
+
+# CODESYS
+*.bak
+*.compileinfo
+*.svn
+*.ts
+*.url
+
+# Others
+*.[Cc]ache
+!*.[Gg]enerated.[Cc]ache
+
+# Local History for Visual Studio Code
+.history/
+
+# BeatPulse healthcheck
+healthcheck
+
+# Backup files
+*.bak
+*.tmp
+
+# SQL Server files
+*.mdf
+*.ldf
+*.ndf
+
+# Business Intelligence projects
+*.rdl.data
+*.bim.layout
+*.bim_*.settings
+*.rptproj.bak
+
+# Microsoft Azure Build Output
+csx/
+*.cscfg
+*.csdef
+
+# Azure Functions local settings
+local.settings.json
+
+# Visual Studio Server Explorer DB connection file
+*.v12.suo
+
+# Others
+Thumbs.db
+ehthumbs.db
+Desktop.ini
