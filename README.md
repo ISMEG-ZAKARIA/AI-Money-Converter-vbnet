@@ -11,6 +11,7 @@ A high-performance, industry-grade desktop application for real-time currency co
 ## 📌 Overview
 
 The **AI Money Converter** is more than a standard utility; it is a sophisticated financial assistant. By combining robust Windows native performance with cutting-edge LLMs, it provides users with a dual-mode experience:
+
 1.  **Direct Conversion**: Rapid, precise currency exchange rate calculations powered by GPT-3.5 Turbo.
 2.  **Conversational Assistance**: A dedicated AI Chatbot interface (GPT-4 Turbo) that understands natural language queries for financial advice, trend analysis, and complex conversion scenarios.
 
@@ -40,28 +41,40 @@ Built using **VB.NET** on the **.NET 8.0** platform, the application leverages W
 
 ## 🖥 Screenshots
 
-| Main Interface | AI Chat Assistant | Live Conversion & Chat |
-| :---: | :---: | :---: |
-| ![Main Interface](screenshots/main_interface.png) | ![AI Chat Assistant](screenshots/ai_chat_interface.png) | ![Live Conversion & Chat](screenshots/conversion_chat_active.png) |
+### Main Interface
+![Main Interface](screenshots/main-interface.png)
+
+### AI Chat Assistant
+![AI Chat Assistant](screenshots/ai-chat.png)
+
+### Live Conversion & Chat
+![Live Conversion & Chat](screenshots/live-conversion.png)
 
 ---
 
 ## ⚙️ Installation & Setup
 
 ### Prerequisites
+
 -   [Visual Studio 2022](https://visualstudio.microsoft.com/) with .NET Desktop Development workload.
 -   [.NET 8.0 SDK](https://dotnet.microsoft.com/download/dotnet/8.0).
 
 ### Step-by-Step Guide
+
 1.  **Clone the Repository**:
     ```bash
     git clone https://github.com/ISMEG-ZAKARIA/AI-Money-Converter-vbnet.git
     ```
+
 2.  **Open the Solution**:
     Launch `MoneyConverter.sln` in Visual Studio.
-3.  **Configure API Keys**:
-    -   Locate `Form1.vb` and `Form2.vb`.
-    -   Replace the `YOUR_OPENAI_API_KEY_HERE` placeholders with your valid OpenAI API key.
+
+3.  **Configure Environment Variables**:
+    -   Locate the `.env.example` file in the root directory.
+    -   Create a new file named `.env` in the same directory.
+    -   Copy the contents of `.env.example` into `.env` and replace the placeholders with your actual API keys.
+    -   *Note: The application is configured to read these keys at runtime. Never hardcode keys in the source files.*
+
 4.  **Restore & Build**:
     -   Right-click the solution and select **Restore NuGet Packages**.
     -   Press `F5` or click **Start** to run the application.
@@ -70,7 +83,7 @@ Built using **VB.NET** on the **.NET 8.0** platform, the application leverages W
 
 ## 🔑 Configuration
 
-The application uses an environment-based configuration approach. See [.env.example](.env.example) for the required structure.
+The application uses an environment-based configuration approach for maximum security. Ensure your `.env` file follows this structure:
 
 ```env
 AI_API_KEY=YOUR_OPENAI_API_KEY_HERE
@@ -91,18 +104,10 @@ CURRENCY_API_KEY=YOUR_CURRENCY_API_KEY_HERE
 
 ## 🔒 Security Notice
 
-As a project maintained by a Cybersecurity Engineer, security is paramount:
+As a project maintained with a focus on cybersecurity, security is paramount:
 -   **No Secrets Committed**: All API keys have been sanitized from the source code.
 -   **Protected Files**: Build artifacts, local user settings, and sensitive configs are strictly ignored via `.gitignore`.
 -   **User Responsibility**: Users are responsible for managing their own API credentials securely.
-
----
-
-## 👨‍💻 Author
-
-**ISMEG ZAKARIA**
-*Cybersecurity Engineer & Software Developer*
-[GitHub Profile](https://github.com/ISMEG-ZAKARIA)
 
 ---
 
